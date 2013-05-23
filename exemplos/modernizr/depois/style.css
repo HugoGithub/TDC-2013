@@ -1,0 +1,23 @@
+#container{
+	position: relative;
+	margin:25px;
+}
+
+/* Sem suporte css3 */
+.no-borderradius .box {
+    border: solid 2px blue;
+}
+/* Com suporte css3 */
+.borderradius .box {
+    border: solid 1px blue;
+    border-radius: 20px;
+} 
+
+
+
+#square{
+	background:#98bf21;
+	height:100px;
+	width:100px;
+	position:absolute;
+}
