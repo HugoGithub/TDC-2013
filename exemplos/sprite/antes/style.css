@@ -1,0 +1,41 @@
+body{
+	font-family: tahoma;
+}
+
+#container{
+	position: relative;
+	margin:25px;
+}
+
+textarea{width: 90%; height: 80px;}
+
+#share{}
+
+#share a{
+	display: block;
+	width: 114px;
+	height: 114px;
+	margin: 5px;
+	float: left;
+}
+
+#share .blogger{background: url('images/blogger.png');}
+#share .deviantart{background: url('images/deviantart.png');}
+#share .digg{background: url('images/digg.png');}
+#share .dribbble{background: url('images/dribbble.png');}
+#share .evernote{background: url('images/evernote.png');}
+#share .facebook{background: url('images/facebook.png');}
+#share .flickr{background: url('images/flickr.png');}
+#share .forrst{background: url('images/forrst.png');}
+#share .googleplus{background: url('images/googleplus.png');}
+#share .instagram{background: url('images/instagram.png');}
+#share .linkedin{background: url('images/linkedin.png');}
+#share .pinterest{background: url('images/pinterest.png');}
+#share .rss{background: url('images/rss.png');}
+#share .share{background: url('images/share.png');}
+#share .skype{background: url('images/skype.png');}
+#share .stumbleupon{background: url('images/stumbleupon.png');}
+#share .tumblr{background: url('images/tumblr.png');}
+#share .twitter{background: url('images/twitter.png');}
+#share .vimeo{background: url('images/vimeo.png');}
+#share .youtube{background: url('images/youtube.png');}

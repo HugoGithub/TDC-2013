@@ -1,0 +1,42 @@
+body{
+	font-family: tahoma;
+}
+
+#container{
+	position: relative;
+	margin:25px;
+}
+
+textarea{width: 90%; height: 80px;}
+
+#share{}
+
+#share a{
+	display: block;
+	width: 114px;
+	height: 114px;
+	margin: 5px;
+	float: left;
+	background: url(images/share-buttons.png) no-repeat top left;
+}
+
+#share .blogger{ background-position: 0 0; width: 114px; height: 114px; } 
+#share .deviantart{ background-position: 0 -164px; width: 114px; height: 114px; } 
+#share .digg{ background-position: 0 -328px; width: 114px; height: 114px; } 
+#share .dribbble{ background-position: 0 -492px; width: 114px; height: 114px; } 
+#share .evernote{ background-position: 0 -656px; width: 114px; height: 114px; } 
+#share .facebook{ background-position: 0 -820px; width: 114px; height: 114px; } 
+#share .flickr{ background-position: 0 -984px; width: 114px; height: 114px; } 
+#share .forrst{ background-position: 0 -1148px; width: 114px; height: 114px; } 
+#share .googleplus{ background-position: 0 -1312px; width: 114px; height: 114px; } 
+#share .instagram{ background-position: 0 -1476px; width: 114px; height: 114px; } 
+#share .linkedin{ background-position: 0 -1640px; width: 114px; height: 114px; } 
+#share .pinterest{ background-position: 0 -1804px; width: 114px; height: 114px; } 
+#share .rss{ background-position: -164px 0; width: 114px; height: 114px; } 
+#share .share{ background-position: -164px -164px; width: 114px; height: 114px; } 
+#share .skype{ background-position: -164px -328px; width: 114px; height: 114px; } 
+#share .stumbleupon{ background-position: -164px -492px; width: 114px; height: 114px; } 
+#share .tumblr{ background-position: -164px -656px; width: 114px; height: 114px; } 
+#share .twitter{ background-position: -164px -820px; width: 114px; height: 114px; } 
+#share .vimeo{ background-position: -164px -984px; width: 114px; height: 114px; } 
+#share .youtube{ background-position: -164px -1148px; width: 114px; height: 114px; } 
