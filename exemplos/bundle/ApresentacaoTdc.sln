@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bundle-1", "bundle-1", "{33D211FD-2864-43E0-A2E7-615F24310BD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bundle-2", "bundle-2", "{75E8AEA2-B879-4D44-8F38-F79A8181CE92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApresentacaoTdc", "bundle-1\ApresentacaoTdc\ApresentacaoTdc.csproj", "{5B2C5711-A710-486F-9FFE-A0E5595DC523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApresentacaoTdc", "bundle-2\ApresentacaoTdc\ApresentacaoTdc.csproj", "{10E0549C-A361-4BEB-8D08-9EDB6E27F52B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B2C5711-A710-486F-9FFE-A0E5595DC523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2C5711-A710-486F-9FFE-A0E5595DC523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2C5711-A710-486F-9FFE-A0E5595DC523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2C5711-A710-486F-9FFE-A0E5595DC523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E0549C-A361-4BEB-8D08-9EDB6E27F52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E0549C-A361-4BEB-8D08-9EDB6E27F52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E0549C-A361-4BEB-8D08-9EDB6E27F52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E0549C-A361-4BEB-8D08-9EDB6E27F52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B2C5711-A710-486F-9FFE-A0E5595DC523} = {33D211FD-2864-43E0-A2E7-615F24310BD1}
+		{10E0549C-A361-4BEB-8D08-9EDB6E27F52B} = {75E8AEA2-B879-4D44-8F38-F79A8181CE92}
+	EndGlobalSection
+EndGlobal
