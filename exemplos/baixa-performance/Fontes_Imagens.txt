@@ -1,0 +1,27 @@
+--
+-- Imagens utilizadas apenas com intuito demonstrativo.
+--
+
+
+Fontes para as imagens originais:
+---------------------------------
+picture_01 - http://www.nasa.gov/images/content/57329main_MM_image_feature_151_jwfull.jpg
+picture_02 - http://www.wikihow.com/images/4/46/The_Horsehead_Nebula_B33_Orion_Nebula.jpg
+picture_03 - http://3.bp.blogspot.com/-1KGWE7F7eLQ/T6gUN7t5plI/AAAAAAAAF_s/rDOzra3HqDU/s1600/heic0601c.jpg
+picture_04 - http://www.wallpapergate.com/wallpaper26255.html
+picture_05 - http://3.bp.blogspot.com/_yGjkVSUh4_U/THn-si8llKI/AAAAAAAAADg/dkb4w-J-0rc/s1600/1246933238_1600x1200_beautiful-nebula-images-by-nasa.jpg
+picture_06 - http://scottdwelch.files.wordpress.com/2010/11/swannebulanasaesajhesterasu.jpg
+picture_07 - http://www.nasa.gov/images/content/152733main_image_feature_618_ys_full.jpg
+picture_08 - http://oformi.net/uploads/gallery/main/245/wallp_oformi_net5.jpg
+picture_09 - http://scitechdaily.com/images/NASA-Image-of-the-Day-A-Colorful-View-of-Mercury.jpg
+picture_10 - http://www.nasa.gov/images/content/62066main_image_feature_193_jwfull.jpg
+picture_11 - http://afesan.es/user/cimage/Pleyades-19x15-dust.jpg
+picture_12 - http://apod.nasa.gov/apod/image/0601/gcenter_spitzer_f40.jpg
+picture_13 - http://coolcosmos.ipac.caltech.edu/image_galleries/MSX/galactic_center.jpg
+picture_14 - http://apod.nasa.gov/apod/image/1201/ngc1232b_vlt_3969.jpg
+picture_15 - http://www.jodrellbank.manchester.ac.uk/astronomy/nightsky/Tadpole.jpg
+picture_16 - http://bestfreewallpapers.info/good%20wallpapers/Galaxy%20Pair%20NGC%204414%20taken%20from%20NASA's%20%20Hubble%20Space%20Telescope.jpg
+picture_17 - http://canitbesaturdaynow.com/images/fpics/2701/nasa_potd_16_oriondeep_andreo_big.jpg
+picture_18 - http://i1.sndcdn.com/artworks-000034226878-pumhva-original.jpg?e48997d
+picture_19 - http://3.bp.blogspot.com/__V2M5Hky_wI/TT9m72ViujI/AAAAAAAAEIA/5GKAuifnmfM/s1600/Chandra%2BCas%2BA.jpg
+picture_20 - http://k43.kn3.net/taringa/4/6/3/9/7/7/4/xxluz03/1BF.jpg?5603

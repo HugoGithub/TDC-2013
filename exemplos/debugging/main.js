@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    console.info('Info: Js pronto para iniciar');
+
 	var square = new Square('#square');
 
 	$("button").click(function(){
@@ -10,6 +12,8 @@ $(document).ready(function(){
 
 
 var Square = (function (element) {
+    console.log('Log: Square instancialização inicializada');
+
 	var self = this;
 
 	var delayIteration = 5;
@@ -18,22 +22,42 @@ var Square = (function (element) {
 	self.currentPositionX = 0;
 	self.currentPositionY = 0;
 
-	self.move = function (loop) {
+
+	self.move = function (loop) {       
+        if(!isCompleteLoop(loop-1)){
+            console.warn('Warn: Não voltará a mesma posição no final da movimentação');
+        }
+
 		var delay = delayIteration;
 
 		for (var i = 0; i < loop; i++) {
+            //debugger;
+
+            var isFirstIteration = (i === 0);
+            var isLastIteration = (i === (loop-1));
+
             // calc new position
             nextPosition();
 
             // move element
-            moveElment(self.currentPositionX, self.currentPositionY, delay, i);
+            moveElment(
+                self.currentPositionX, 
+                self.currentPositionY, 
+                delay, 
+                i, 
+                isFirstIteration,
+                isLastIteration);
 
             delay += delayIteration;
         };
+
+
     };
 
-    function moveElment (x, y, delay, iteration) {
-    	setTimeout(function (argument) {
+    function moveElment (x, y, delay, iteration, isFirstIteration, isLastIteration) {
+    	setTimeout(function () {
+            logMoveInit(isFirstIteration);
+
 			// move
 			self.element.css({ 
 				'left': x + 'px', 
@@ -41,7 +65,34 @@ var Square = (function (element) {
 			});
 
 			onCompleteLoopChangeColor(iteration);
+
+            logTooManyIterations(iteration);
+            logMoveFin(isLastIteration);
 		}, delay);
+
+        function logMoveInit (isFirstIteration) {
+            if(isFirstIteration){
+                console.group('Group: Movimentação Square');
+                console.log('Log: Movimentação inicializada');
+                console.time('Time: Duração Movimentação');
+            }
+        }
+
+        function logMoveFin (isLastIteration) {
+            if(isLastIteration){
+                console.log('Log: Movimentação completada');
+                console.timeEnd('Time: Duração Movimentação');
+                console.groupEnd('Group: Movimentação Square');
+            }
+        }
+
+        function logTooManyIterations(iteration) {
+            // if((iteration+1) > 300){
+            //     console.error('Error: Excedido número de voltas de uma única vez');
+            // }
+
+            console.assert((iteration+1) <= 300, 'Assert: Excedido número de voltas de uma única vez');
+        }
     }
 
 
@@ -77,21 +128,23 @@ var Square = (function (element) {
     function onCompleteLoopChangeColor (iteration) {
     	
 
-    	if(isCompleteLoop()){
+    	if(isCompleteLoop(iteration)){
     		var color = colors[Math.floor(Math.random()*colors.length)];
 
 			self.element.css({ 
 				'background': color
 			});
     	}
-
-    	function isCompleteLoop() {
-		   	if(iteration === 0 )
-		   		return false;
-
-		   	return iteration/1000 % 1 === 0;
-		}
     }
+
+    function isCompleteLoop(iteration) {
+        if(iteration === 0 )
+            return false;
+
+        return iteration/1000 % 1 === 0;
+    }
+
+    console.log('Log: Square instancialização completado');
 
     return self;
 });

@@ -1,0 +1,60 @@
+/*
+ * CSS PRINCIPAL
+ * Descricao: Contem principais estilos css
+ * Criado Por: João Biscoito - 01/01/2010
+ * Ultima Atualizaçao Por: Mr. M - 20/01/2013
+ */
+
+
+/*
+ * GERAL
+ * ------------------------------------- */
+
+body {
+	font-family: Tahoma;
+	background: #000;
+	color: #fff;
+}
+
+/*
+ * ESTRUTURA
+ * ------------------------------------- */
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+}
+
+/*
+ * GALERIA
+ * ------------------------------------- */
+
+#galery {
+
+}
+
+#galery img {
+	width: 125px;
+	vertical-align: middle;
+	margin: 2px 5px;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#important-link{
+	color: red;
+}
+
+/*
+ * LINK FONTES RODAPÉ
+ * ------------------------------------- */
+
+#fonts-link {
+	font-size: 10px;
+	color: yellow;
+}

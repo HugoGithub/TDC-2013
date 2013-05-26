@@ -1,11 +1,22 @@
+body{
+	font-family: verdana;
+}
+
+header{
+	font-size: 30px;
+	color:red;
+	margin:5px 25px;
+}
+
 #container{
 	position: relative;
 	margin:25px;
 }
 
 .box {
-    border: solid 1px blue;
+    border: solid 1px red;
     border-radius: 20px;
+    padding: 10px;
 }
 
 #square{
